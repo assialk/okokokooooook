@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Assia Laoukili/ music</title>
+        <link rel = "stylesheet" href = "styleM.css">
+    </head>
+    <body>
+        <header>
+            <div class="logo">  Assia's portfolio</div>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <nav class="nav-bar"> 
+                <ul>
+                    <li>
+                        <a href = "main.html"  >Home</a>
+                    </li>
+                    <li>
+                        <a href = "games.html">Games</a>
+                    </li>
+                <li>
+                    <a href = "animation.html"  >Animations</a>
+                </li>
+            <li>
+                <a href = "music.html" class="active" > Music</a>
+            </li>
+
+                </ul>
+            </nav>
+        </header>
+
+<script> 
+    hamburger = document.querySelector(".hamburger");
+    hamburger.onclick = function(){
+        navBar = document.querySelector(".nav-bar");
+        navBar.classlist.toggle("active");
+    }
+</script>
+
+<div class="main">
+    <figure>
+        <br>
+        <br>
+        <br>
+        <figcaption>Listen to a loop I made with Logic pro:</figcaption>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <audio
+        
+            controls
+            
+            src="music 1.mp3">
+                
+        </audio>
+    </figure>
+</div>
+
+
+
+
+
+</body>
+</html>
